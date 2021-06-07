@@ -3,3 +3,45 @@
     padding: 0;
     margin: 0;
 }
+
+div#titulo{
+margin: auto;
+width: 290px;
+height: 100px;
+
+}
+
+div#Logo{
+background: url(https://1.bp.blogspot.com/-zcVdm6Mlyfg/YL2Ppa68DUI/AAAAAAAALBY/jyRN1e_hvcchjaXpbW7a5vyKjnnBV9I4ACLcBGAsYHQ/s52/Captura.JPG);
+margin: auto;
+width: 50px;
+height: 50px;
+}
+
+div#sub{
+    margin: auto;
+    width: 130px;
+    height: 50px;
+}
+
+div#menu1{
+    background-color: grey;
+    margin-top: 4%;
+    width: 350px;
+    height: 450px; 
+}
+
+div#scroll{
+    background-color: grey;
+    margin-left: 130%;
+    width: 350px;
+    height: 350px;
+}
+
+div#menu2{
+    background-color: grey;
+    margin-top: 4%;
+    margin-left: 150%;
+    width: 350px;
+    height: 450px; 
+}
