@@ -2,46 +2,62 @@
 *{
     padding: 0;
     margin: 0;
+    background-color:rgb(39, 38, 38);
 }
-
-div#titulo{
+/*TITILO*/
+#titulo{
 margin: auto;
-width: 290px;
-height: 100px;
-
+width: 205px;
+height: 40px;
+color: white;
 }
-
+/*LOGO*/
 div#Logo{
 background: url(https://1.bp.blogspot.com/-zcVdm6Mlyfg/YL2Ppa68DUI/AAAAAAAALBY/jyRN1e_hvcchjaXpbW7a5vyKjnnBV9I4ACLcBGAsYHQ/s52/Captura.JPG);
 margin: auto;
 width: 50px;
 height: 50px;
 }
-
-div#sub{
+/*SUBTITULO*/
+#subTitulo{
     margin: auto;
-    width: 130px;
+    width: 113px;
     height: 50px;
+    color: white;
+}
+#central{
+    background-color: tomato;
+    max-width: 100%;
 }
 
-div#menu1{
-    background-color: grey;
-    margin-top: 4%;
-    width: 350px;
-    height: 450px; 
+.central{
+    display: block;
+    margin: 15px;
+    width: 250px;
+    height: 250px;
+    margin-top: 15px;
+    margin-bottom: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding: 20px; 
+    float: left;
 }
 
-div#scroll{
-    background-color: grey;
-    margin-left: 130%;
-    width: 350px;
-    height: 350px;
+/*MENU IZQUIERDO*/
+#menu1{
+    background-color: grey;  
+    border:solid red 5px;
 }
-
-div#menu2{
+/*CARRUSEL*/
+#scroll{
     background-color: grey;
-    margin-top: 4%;
-    margin-left: 150%;
-    width: 350px;
-    height: 450px; 
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 500px;
+    width: 620px;
+}
+/*MENU DERECHO*/
+#menu2{
+    border:solid red 5px;
+    background-color: grey;
 }
